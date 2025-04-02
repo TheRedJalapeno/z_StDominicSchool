@@ -34,7 +34,7 @@ h3, h4, h5, h6 {
 /* Container for content */
 .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -162,6 +162,8 @@ h3, h4, h5, h6 {
 /* Content sections */
 .content-section {
     padding: 40px 0;
+    margin: auto;
+    display: inline;
 }
 
 section {
@@ -468,6 +470,10 @@ section {
 @media (min-width: 768px) {
     .container {
         width: 750px;
+    }
+
+    div.map-container iframe {
+        width: 600px;
     }
     
     .mobile-menu-btn {
